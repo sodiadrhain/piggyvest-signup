@@ -9,6 +9,13 @@ body {
     background-attachment: fixed;
 }
 
+@media only screen and (max-width: 640px) {
+body {
+	margin: 0px;
+	padding: 0px;
+}
+}
+
 .box {
 	padding-top: 3rem;
     align-items: center;
@@ -45,7 +52,7 @@ img {
 
 @media only screen and (max-width: 640px) {
 .content {
-	width: 96%;
+	width: 92%;
 	max-width: 32rem;
 	margin: 0px;
 }
