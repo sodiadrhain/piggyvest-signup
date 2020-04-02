@@ -54,7 +54,6 @@ img {
 @media only screen and (max-width: 600px) {
 .content {
 	width: 92%;
-	max-width: 32rem;
 	margin: 0px;
 	padding: 0px;
 }
