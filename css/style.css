@@ -11,9 +11,9 @@ body {
 
 @media only screen and (max-width: 800px) {
 body {
-	margin: 0px;
-	padding: 0px;
-	Width:unset;
+	flex direction: column;
+width:unset;
+align-items: center;
 }
 }
 
