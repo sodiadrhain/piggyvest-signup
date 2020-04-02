@@ -11,12 +11,17 @@ body {
 
 .box {
 	padding-top: 3rem;
-    padding-bottom: 3rem;
-    overflow: auto;
-    min-height: 100vh;
     align-items: center;
     flex-direction: column;
     display: flex;
+}
+
+@media only screen and (min-width: 640px) {
+.box {
+    padding-bottom: 3rem;
+    overflow: auto;
+    min-height: 100vh;
+}
 }
 
 img {
@@ -25,21 +30,25 @@ img {
 }
 
 .content {
-	width: 92%;
-	max-width: 32rem;
 	border-bottom-right-radius: 1.25rem;
 	border-top-left-radius: 1.25rem;
     border-top-right-radius: 1.25rem;
     background-color: #fff;
-	@media (min-width: 640px)
-	{
-    padding-bottom: 3rem;
-	}
-	
-	@media (min-width: 640px)
-	{
-    padding: 2.5rem;
-	}
+}
+
+@media only screen and (min-width: 640px) {
+.content {
+	width: 92%;
+	max-width: 32rem;
+}
+}
+
+@media only screen and (max-width: 640px) {
+.content {
+	width: 96%;
+	max-width: 32rem;
+	margin: 0px;
+}
 }
 
 header {
