@@ -83,10 +83,11 @@ h2 {
     	font-size: 2em;
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 800px) {
 	{
     font-size: 1em;
 	}
+}
 
 p {
     font-size: .875rem;
@@ -95,10 +96,11 @@ p {
     margin: 0px;
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 800px) {
 	 a {
     font-size: .500rem;
 	}
+}
 
 .top-form {
 	position: relative;
@@ -114,11 +116,13 @@ p {
 	font-weight: 700;
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 800px) {
 	 a {
     font-size: 11px;
 	}
+}
 
+	
 input {
 	padding: 20px;
     border-radius: 5px;
@@ -149,10 +153,11 @@ option {
 	padding: 20px 40px 40px 40px;
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 800px) {
 	.content-2 {
     		padding: 20px 20px 40px 20px;
 	}
+}
 
 button {
 	align-items: center;
@@ -185,10 +190,11 @@ a {
 	font-weight: 400;
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 800px) {
 	 a {
     font-size: 10px;
 	}
+}
 
 a:hover {
 	color: rgb(179, 179, 179);
