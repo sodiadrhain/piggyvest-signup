@@ -9,12 +9,10 @@ body {
     background-attachment: fixed;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 body {
-flex-direction: column;
-width: unset;
-height: unset;
-align-items: right;
+	margin: 0px;
+	padding: 0px;
 }
 }
 
@@ -23,6 +21,14 @@ align-items: right;
     align-items: center;
     flex-direction: column;
     display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+.box {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 3rem;
+}
 }
 
 @media only screen and (min-width: 600px) {
@@ -47,7 +53,7 @@ img {
 
 @media only screen and (max-width: 600px) {
 .content {
-	width: 94%;
+	width: 92%;
 	margin: 0px;
 	padding: 0px;
 }
@@ -67,7 +73,10 @@ header {
 	display: flex;
 	padding-top: 30px;
 	margin: 15px 0px 25px 0px;
-	
+	@media (min-width: 640px)
+	{
+    margin-bottom: 2rem;
+	}
 }
 
 h2 {
@@ -76,6 +85,10 @@ h2 {
 	font-weight: 700;
 	margin: 0px;
     font-size: 2em;
+	@media (min-width: 768px)
+	{
+    font-size: 1.5rem;
+	}
 }
 
 p {
@@ -105,8 +118,8 @@ input {
     border: none;
     background: #edf2f7;
     font-size: inherit;
-    color: #eee;
-    margin-bottom: 20px;
+    color: #000;
+    margin-bottom: 20px:
 	
 }
 
@@ -127,14 +140,6 @@ option {
 
 .content-2 {
 	padding: 20px 40px 40px 40px;
-}
-
-@media only screen and (max-width: 800px) {
-.content-2 {
-
-	padding: 20px 20px;
-        margin: 0px;
-}
 }
 
 button {
