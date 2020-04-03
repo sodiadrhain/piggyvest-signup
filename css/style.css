@@ -84,7 +84,7 @@ h2 {
 }
 
 @media only screen and (max-width: 800px) {
-	{
+	h2 {
     font-size: 1em;
 	}
 }
@@ -97,7 +97,7 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
-	 a {
+	 p {
     font-size: .500rem;
 	}
 }
@@ -117,7 +117,7 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
-	 a {
+	 .label {
     font-size: 11px;
 	}
 }
@@ -149,15 +149,17 @@ option {
 	margin: 19px;
 }
 
+
+@media only screen and (max-width: 800px) {
+	.content-2 {
+    		padding: 20px 10px 40px 10px;
+	}
+}
+
 .content-2 {
 	padding: 20px 40px 40px 40px;
 }
 
-@media only screen and (max-width: 800px) {
-	.content-2 {
-    		padding: 20px 20px 40px 20px;
-	}
-}
 
 button {
 	align-items: center;
@@ -182,18 +184,17 @@ button:hover {
 	background-color: #062863;
 }
 
+@media only screen and (max-width: 800px) {
+	 a {
+    font-size: 10px;
+	}
+}
 
 a {
 	color: #fff;
 	text-decoration: unset;
 	font-size: 16px;
 	font-weight: 400;
-}
-
-@media only screen and (max-width: 800px) {
-	 a {
-    font-size: 10px;
-	}
 }
 
 a:hover {
